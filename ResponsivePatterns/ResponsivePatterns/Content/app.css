@@ -32,3 +32,7 @@ aside {
         max-width: 140px;
         max-height: 60px;
     }
+
+.range-title {
+    color: darkblue;
+}
