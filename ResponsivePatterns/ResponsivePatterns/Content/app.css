@@ -36,3 +36,22 @@ aside {
 .range-title {
     color: darkblue;
 }
+
+.sports-icon-list {
+    background-color: #333;
+    padding-bottom: 40px;
+}
+
+    .sports-icon-list a {
+        color: white;
+    }
+
+        .sports-icon-list a h6 {
+            margin-top: 2px;
+            margin-bottom: 14px;
+        }
+
+    .sports-icon-list img {
+        width: 70px;
+        height: 70px;
+    }
