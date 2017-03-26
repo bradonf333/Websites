@@ -71,7 +71,7 @@ aside {
 article {
     padding: 40px;
 }
-
+/* The width and height attributes made the pics scale correctly in the google chrome device emulator */
     article img {
         width: 100%;
         height: 100%;
