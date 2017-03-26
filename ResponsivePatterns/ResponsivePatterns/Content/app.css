@@ -1,3 +1,10 @@
 ﻿body {
     font-family: 'Raleway', sans-serif;
 }
+
+header, footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
