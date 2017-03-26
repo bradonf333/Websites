@@ -14,3 +14,14 @@ aside {
     text-align: center;
     padding-top: 40px;
 }
+
+.range-list {
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+    .range-list h4 {
+        margin-bottom: 40px;
+        color: darkorange;
+        font-weight: bold;
+    }
