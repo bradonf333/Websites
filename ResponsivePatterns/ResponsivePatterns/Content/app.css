@@ -6,6 +6,10 @@
     margin-bottom: 0px;
 }
 
+.navbar-inverse .navbar-nav > li > a {
+    color: #e5e5e5;
+}
+
 footer {
     background-color: #333;
     color: #ddd;
