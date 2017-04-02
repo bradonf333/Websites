@@ -66,18 +66,32 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="03\index - Copy.html" />
+    <Content Include="images\backpack.png" />
     <Content Include="images\elk.jpg" />
     <Content Include="images\icon-biathlon.png" />
     <Content Include="images\icon-bobsled.png" />
     <Content Include="images\icon-cross-country.png" />
     <Content Include="images\icon-downhill.png" />
     <Content Include="images\icon-snowboard.png" />
+    <Content Include="images\lake-dark.jpg" />
     <Content Include="images\lake.jpg" />
+    <Content Include="images\map.png" />
+    <Content Include="images\photos\buller-lake.jpg" />
+    <Content Include="images\photos\canada.jpg" />
+    <Content Include="images\photos\landscape.jpg" />
+    <Content Include="images\photos\mountain-flowers.jpg" />
+    <Content Include="images\photos\road-sign.jpg" />
+    <Content Include="images\photos\rockies.jpg" />
+    <Content Include="images\photos\scale-mountain.jpg" />
+    <Content Include="images\photos\sit-on-mountain.jpg" />
+    <Content Include="images\pic.png" />
     <Content Include="images\range-1.png" />
     <Content Include="images\range-2.png" />
     <Content Include="images\range-3.png" />
     <Content Include="images\range-4.png" />
     <Content Include="images\range-5.png" />
+    <Content Include="images\site-logo-white-70pct.png" />
+    <Content Include="images\site-logo-white.png" />
     <Content Include="images\snowboarder.jpg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />

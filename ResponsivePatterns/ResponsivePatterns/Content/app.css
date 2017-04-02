@@ -4,10 +4,16 @@
 
 .navbar {
     margin-bottom: 0px;
+    padding: 30px, 15px;
 }
 
 .navbar-inverse .navbar-nav > li > a {
     color: #e5e5e5;
+}
+
+.navbar img {
+    width: 70%;
+    height: 70%;
 }
 
 footer {
