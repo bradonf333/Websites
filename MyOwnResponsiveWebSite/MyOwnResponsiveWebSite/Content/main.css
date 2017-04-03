@@ -5,11 +5,28 @@
 
 .navbar {
     margin-bottom: 0px;
+    padding: 10px 10px;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 700;
 }
 
 
 .navbar-inverse .navbar-nav > li > a {
     color: #e5e5e5;
+}
+
+.navbar-brand {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    color: rgba( 9, 123, 133, 1);
+}
+
+.navbar-inverse .navbar-brand {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 700;
+    color: rgba(12, 204, 221, 0.75);
 }
 
 .sideLists h1 {
@@ -19,6 +36,12 @@
 @media (min-width: 768px) and (max-width: 768px) {
     .sideLists h1 {
         font-size: 3.3vw;
+    }
+}
+
+@media (max-width: 736px) {
+    .navbar-brand {
+        font-size: 4.5vw;
     }
 }
 
@@ -80,10 +103,10 @@ footer {
         margin-bottom: 25px;
     }
 
-.midLists img {
-    height: 300px;
-    padding-bottom: 10px;
-}
+    .midLists img {
+        height: 300px;
+        padding-bottom: 10px;
+    }
 
 
 .blueColumn {
