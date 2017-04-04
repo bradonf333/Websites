@@ -14,6 +14,7 @@
 }
 
 
+
 .navbar-inverse .navbar-nav > li > a {
     color: #e5e5e5;
 }
@@ -29,6 +30,14 @@
     font-style: italic;
     font-weight: 700;
     color: rgba(16, 233, 252, 0.80);
+}
+
+@media (max-width: 446px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 4.5vw;
+        font-style: italic;
+        font-weight: 700;
+    }
 }
 
 .cbp-af-header-shrink {
