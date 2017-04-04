@@ -19,14 +19,13 @@
     font-size: 25px;
     font-style: italic;
     font-weight: 700;
-    color: rgba( 9, 123, 133, 1);
 }
 
 .navbar-inverse .navbar-brand {
     font-size: 25px;
     font-style: italic;
     font-weight: 700;
-    color: rgba(12, 204, 221, 0.75);
+    color: rgba(16, 233, 252, 0.80);
 }
 
 .sideLists h1 {
