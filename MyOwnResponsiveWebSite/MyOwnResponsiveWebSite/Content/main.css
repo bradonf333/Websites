@@ -8,6 +8,8 @@
     padding: 10px 10px;
     font-family: 'Cantarell', sans-serif;
     font-weight: 700;
+    -webkit-transition: all .5s;
+    transition: all 0.5s;
 }
 
 
