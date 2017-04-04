@@ -30,6 +30,12 @@
     color: rgba(16, 233, 252, 0.80);
 }
 
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: .9;
+}
+
 .sideLists h1 {
     font-size: 25pt;
 }
