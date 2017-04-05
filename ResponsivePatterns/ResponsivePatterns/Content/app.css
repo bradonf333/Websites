@@ -41,6 +41,11 @@
     box-shadow: rgba(0, 0, 0, 0.50) 10px 10px 40px;
 }
 
+fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
 footer {
     background-color: #333;
     color: #ddd;
