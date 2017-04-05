@@ -41,7 +41,7 @@
     box-shadow: rgba(0, 0, 0, 0.50) 10px 10px 40px;
 }
 
-fill-screen {
+.fill-screen {
     background-size: cover;
     background-position: center;
 }
