@@ -67,5 +67,13 @@
     <script src="/Scripts/bootstrap.min.js"></script>
     <script src="Scripts/classie.js"></script>
     <script src="Scripts/cbpAnimatedHeader.js"></script>
+
+    <script>
+         $(function () {
+             $(window).on("load resize", function () {
+                 $(".fill-screen").css("height", window.innerHeight);
+             });
+         });
+    </script>
 </body>
 </html>
