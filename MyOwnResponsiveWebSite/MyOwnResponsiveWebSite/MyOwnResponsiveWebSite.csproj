@@ -67,6 +67,7 @@
   <ItemGroup>
     <Content Include="FullScreenImg.html" />
     <Content Include="imgs\cloud.svg" />
+    <Content Include="imgs\coffeeBackground.jpg" />
     <Content Include="imgs\coffeeBeansWhite.svg" />
     <Content Include="imgs\coffeeCup.svg" />
     <Content Include="imgs\contactcard.svg" />
