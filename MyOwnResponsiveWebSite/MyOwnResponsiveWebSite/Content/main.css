@@ -1,6 +1,7 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
     background: #d4d4d4;
+    padding-top: 60px;
 }
 
 .navbar {
@@ -35,14 +36,6 @@
     background-position: center;
 }
 
-@media (max-width: 446px) {
-    .navbar-inverse .navbar-brand {
-        font-size: 4vw;
-        font-style: italic;
-        font-weight: 700;
-    }
-}
-
 .cbp-af-header-shrink {
     padding-top: 5px;
     padding-bottom: 5px;
@@ -59,11 +52,36 @@
     }
 }
 
-@media (max-width: 874px) {
+@media (min-width: 768px) and (max-width: 874px) {
     .navbar-inverse .navbar-brand {
         font-size: 2vw;
     }
 }
+
+@media (min-width: 320px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 10pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 414px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 12pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 20pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
 
 /* TODO
     More media queries to resize the font awesome icons for different sizes
@@ -125,7 +143,7 @@ footer {
 
     .midLists img {
         height: 300px;
-        padding-bottom: 10px;
+        padding-bottom: 35px;
     }
 
 

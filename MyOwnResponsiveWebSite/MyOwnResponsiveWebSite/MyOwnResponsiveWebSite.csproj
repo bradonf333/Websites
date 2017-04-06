@@ -73,6 +73,9 @@
     <Content Include="imgs\contactcard.svg" />
     <Content Include="imgs\desk.svg" />
     <Content Include="imgs\espressoMachine.svg" />
+    <Content Include="imgs\iconmonstr-phone-1-240.png" />
+    <Content Include="imgs\iconmonstr-twitter-1.svg" />
+    <Content Include="imgs\iconmonstr-user-1.svg" />
     <Content Include="imgs\phone.svg" />
     <Content Include="packages.config" />
     <Content Include="Scripts\cbpAnimatedHeader.js" />
