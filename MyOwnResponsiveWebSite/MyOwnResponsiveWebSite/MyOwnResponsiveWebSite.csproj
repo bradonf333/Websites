@@ -65,6 +65,7 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="FullScreenImg.html" />
     <Content Include="imgs\cloud.svg" />
     <Content Include="imgs\coffeeBeansWhite.svg" />
     <Content Include="imgs\coffeeCup.svg" />
