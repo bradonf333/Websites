@@ -85,6 +85,7 @@
     <Content Include="imgs\iconmonstr-twitter-1.svg" />
     <Content Include="imgs\iconmonstr-user-1.svg" />
     <Content Include="imgs\phone.svg" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap-theme.min.css.map" />
