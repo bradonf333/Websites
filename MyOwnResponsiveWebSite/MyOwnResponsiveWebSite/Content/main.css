@@ -1,7 +1,6 @@
 ﻿body {
     font-family: 'Open Sans', sans-serif;
     background: #d4d4d4;
-    padding-top: 60px;
 }
 
 .navbar {
@@ -12,7 +11,6 @@
     -webkit-transition: all .5s;
     transition: all 0.5s;
 }
-
 
 
 .navbar-inverse .navbar-nav > li > a {
@@ -39,7 +37,7 @@
 
 @media (max-width: 446px) {
     .navbar-inverse .navbar-brand {
-        font-size: 4.5vw;
+        font-size: 4vw;
         font-style: italic;
         font-weight: 700;
     }
@@ -61,9 +59,9 @@
     }
 }
 
-@media (max-width: 736px) {
-    .navbar-brand {
-        font-size: 4.5vw;
+@media (max-width: 874px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 2vw;
     }
 }
 
