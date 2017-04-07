@@ -52,7 +52,13 @@
 }
 
 .fixed-attachment {
-    background-attachment:fixed;
+    background-attachment: fixed;
+}
+
+@media (max-width: 1024px) {
+    .fixed-attachment {
+        background-attachment: scroll;
+    }
 }
 
 footer {
