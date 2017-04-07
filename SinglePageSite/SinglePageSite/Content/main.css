@@ -36,6 +36,14 @@
     background-position: center;
 }
 
+.content-filler {
+    min-height: 350px;
+}
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
 .cbp-af-header-shrink {
     padding-top: 5px;
     padding-bottom: 5px;
