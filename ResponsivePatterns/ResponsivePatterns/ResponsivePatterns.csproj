@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="03\index - Copy.html" />
+    <Content Include="Content\video.css" />
     <Content Include="images\backpack.png" />
     <Content Include="images\coffee3Background.jpeg" />
     <Content Include="images\elk.jpg" />
