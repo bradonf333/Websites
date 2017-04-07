@@ -8,7 +8,7 @@
     <link href="/Content/app.css" rel="stylesheet" />
 </head>
 <body>
-    
+
     <header>
         <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
 
@@ -45,11 +45,14 @@
 
     <div class="container-fluid">
         <div class="row">
-            <div class="fill-screen" style="background-image: url(../images/lake.jpg)">
-            </div>
+            <div class="fill-screen" style="background-image: url(../images/lake.jpg)"></div>
         </div>
         <div class="row content-filler">
+        </div>
+        <div class="row">
             <div class="fill-screen" style="background-image: url(../images/elk.jpg)"></div>
+        </div>
+        <div class="row content-filler">
         </div>
     </div>
 
@@ -167,12 +170,16 @@
     <script src="../Scripts/classie.js"></script>
     <script src="../Scripts/cbpAnimatedHeader.js"></script>
 
+
+
     <script>
+
         $(function () {
             $(window).on("load resize", function () {
                 $(".fill-screen").css("height", window.innerHeight);
             });
         });
+
     </script>
 </body>
 </html>

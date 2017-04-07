@@ -15,11 +15,12 @@
     .navbar-header {
         position: relative;
     }
+
     .navbar img {
         position: absolute;
         top: 0;
         bottom: 0;
-        margin:auto;
+        margin: auto;
         width: 70%;
     }
 }
@@ -44,6 +45,10 @@
 .fill-screen {
     background-size: cover;
     background-position: center;
+}
+
+.content-filler {
+    min-height: 350px;
 }
 
 footer {
