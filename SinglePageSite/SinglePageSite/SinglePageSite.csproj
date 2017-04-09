@@ -106,6 +106,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+    <Content Include="Scripts\VideoBG.js" />
     <Content Include="vids\Coffee-Jet.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
