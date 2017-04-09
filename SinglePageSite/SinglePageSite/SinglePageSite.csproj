@@ -75,6 +75,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="imgs\cloud.svg" />
+    <Content Include="imgs\Coffee-Jet.jpg" />
     <Content Include="imgs\coffee2Background.jpeg" />
     <Content Include="imgs\coffee3Background.jpeg" />
     <Content Include="imgs\coffeeBackground.jpg" />
