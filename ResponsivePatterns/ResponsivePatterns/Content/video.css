@@ -46,3 +46,12 @@
         .video-container video.fillWidth {
             width: 100%;
         }
+
+@media (max-width: 768px) {
+    .video-container .filter {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url('../images/Trees-Top.jpg');
+    }
+}
