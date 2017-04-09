@@ -54,8 +54,4 @@
         background-attachment: fixed;
         background-image: url('/imgs/Coffee-Jet.jpg');
     }
-
-    .fullscreen-bg__video {
-        display: none;
-    }
 }
