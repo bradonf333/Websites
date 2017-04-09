@@ -47,9 +47,12 @@
             width: 100%;
         }
 
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url('../img/videoframe.jpg') center center / cover no-repeat;
+@media (max-width: 768px) {
+    .video-container .filter {
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        background-image: url('/imgs/Coffee-Jet.jpg');
     }
 
     .fullscreen-bg__video {
