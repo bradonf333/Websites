@@ -6,29 +6,53 @@
 
 .navbar {
     margin-bottom: 0px;
-    padding: 25px 10px;
-    font-family: 'Cantarell', sans-serif;
-    font-weight: 700;
+    padding: 30px 15px;
     -webkit-transition: all .5s;
     transition: all 0.5s;
 }
 
+    .navbar img {
+        height: 65px;
+        display: block;
+    }
+
+    .navbar .nav-credit {
+        font-size: 8pt;
+        color: rgba(255, 255, 255, 0.72);
+    }
+
+@media (max-width: 425px) {
+    .navbar .nav-credit {
+        font-size: 2pt;
+        display: block;
+        text-align: left;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-header {
+        position: relative;
+    }
+
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 60%;
+        height: auto;
+    }
+}
 
 .navbar-inverse .navbar-nav > li > a {
     color: #e5e5e5;
 }
 
-.navbar-brand {
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 700;
-}
-
-.navbar-inverse .navbar-brand {
-    font-size: 25px;
-    font-style: italic;
-    font-weight: 700;
-    color: #e5e5e5;
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: .9;
 }
 
 .fill-screen {
