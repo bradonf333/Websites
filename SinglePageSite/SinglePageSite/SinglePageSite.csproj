@@ -82,6 +82,7 @@
     <Content Include="imgs\coffeeBackground.jpg" />
     <Content Include="imgs\coffeeBeansWhite.svg" />
     <Content Include="imgs\coffeeCup.svg" />
+    <Content Include="imgs\CoffeeLogoTransP3.png" />
     <Content Include="imgs\contactcard.svg" />
     <Content Include="imgs\desk.svg" />
     <Content Include="imgs\espressoMachine.svg" />
