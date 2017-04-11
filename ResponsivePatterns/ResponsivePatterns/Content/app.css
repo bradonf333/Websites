@@ -10,7 +10,6 @@
     transition: all 0.5s;
 }
 
-
 @media (max-width: 400px) {
     .navbar-header {
         position: relative;
