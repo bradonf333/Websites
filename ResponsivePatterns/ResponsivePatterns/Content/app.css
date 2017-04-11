@@ -74,17 +74,17 @@
     }
 
 .activity-section {
-   margin: 50px;
+    margin: 50px;
 }
 
 .activity-element {
     text-align: center;
 }
 
-.activity-element img {
-    width: 150px;
-    height: 150px;
-}
+    .activity-element img {
+        width: 150px;
+        height: 150px;
+    }
 
 .contact-us {
     margin: 50px;
