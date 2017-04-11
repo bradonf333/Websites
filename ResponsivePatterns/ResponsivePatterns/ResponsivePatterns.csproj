@@ -93,6 +93,8 @@
     <Content Include="images\range-5.png" />
     <Content Include="images\site-logo-white-70pct.png" />
     <Content Include="images\site-logo-white.png" />
+    <Content Include="images\site-logo-white1-70pct.png" />
+    <Content Include="images\site-logo-white1.png" />
     <Content Include="images\snowboarder.jpg" />
     <Content Include="images\Trees-Top.jpg" />
     <Content Include="Old\index.html" />
