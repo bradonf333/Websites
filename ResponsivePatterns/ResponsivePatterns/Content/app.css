@@ -46,8 +46,19 @@
     background-position: center;
 }
 
-.content-filler {
-    min-height: 350px;
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+.title-img {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .fixed-attachment {
