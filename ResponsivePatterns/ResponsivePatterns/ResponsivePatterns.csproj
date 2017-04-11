@@ -101,6 +101,7 @@
     <Content Include="Scripts\classie.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\scrolling.js" />
     <Content Include="Scripts\videoBG.js" />
     <Content Include="vids\Trees-Top.mp4" />
     <Content Include="vids\Trees-Top.webm" />
