@@ -66,6 +66,32 @@
     margin: 40px 20px;
 }
 
+    .text-banner h1 {
+        font-size: 44px;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+    }
+
+.activity-section {
+   margin: 50px;
+}
+
+.activity-element {
+    text-align: center;
+}
+
+.activity-element img {
+    width: 150px;
+    height: 150px;
+}
+
+.contact-us {
+    margin: 50px;
+    text-align: center;
+}
+
 footer {
     background-color: #333;
     color: #ddd;
