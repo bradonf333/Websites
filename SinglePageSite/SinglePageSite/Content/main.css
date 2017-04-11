@@ -40,7 +40,7 @@
         top: 0;
         bottom: 0;
         margin: auto;
-        width: 60%;
+        width: 40%;
         height: auto;
     }
 }
@@ -66,6 +66,37 @@
 
 .fixed-attachment {
     background-attachment: fixed;
+}
+
+.text-banner {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+    .text-banner h1 {
+        font-size: 44px;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+    }
+
+.activity-section {
+    margin: 50px;
+}
+
+.activity-element {
+    text-align: center;
+}
+
+    .activity-element img {
+        width: 150px;
+        height: 150px;
+    }
+
+.contact-us {
+    margin: 50px;
+    text-align: center;
 }
 
 .cbp-af-header-shrink {
