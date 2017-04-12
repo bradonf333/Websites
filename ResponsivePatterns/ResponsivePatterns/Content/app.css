@@ -64,7 +64,12 @@
     bottom: 40px;
     width: 100%;
     text-align: center;
+    font-weight: 100;
 }
+
+    .down-button i {
+        color: white;
+    }
 
 .fixed-attachment {
     background-attachment: fixed;
