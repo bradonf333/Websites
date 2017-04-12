@@ -1,6 +1,8 @@
-# ResponsivePatterns
+# Websites
 
-Website created using the PluralSight tutorial to learn Bootstrap
+These are websites I have created. 
+
+Some of them are created following tutorials on PluralSight, some are my own creations based of tutorials I have seen or ideas I have gotten from following those tutorials.
 
 Turned this into a couple different Websites:
 1. **ResponsivePatterns** - Created following the steps from PluralSight. Uses all the resources from the tutorial.
