@@ -69,6 +69,7 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\video.css" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\backpack.png" />
     <Content Include="images\elk.jpg" />
     <Content Include="images\icon-biathlon.png" />
@@ -109,6 +110,11 @@
     <Content Include="Scripts\videoBG.js" />
     <Content Include="vids\Trees-Top.mp4" />
     <Content Include="vids\Trees-Top.webm" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
