@@ -1,12 +1,16 @@
-﻿$(document).ready(function () {
+﻿
+$(function () {
     $(window).on("load resize", function () {
         $(".fill-screen").css("height", window.innerHeight);
     });
 
-    // Bootstrap ScrollSpy
+    // add Bootstrap's scrollspy
+    /*
     $('body').scrollspy({
         target: '.navbar'
-    })
+    });
+    */
 
+    $('#content').scrollspy();
 
 });
