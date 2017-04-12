@@ -59,6 +59,13 @@
     -webkit-transform: translate(-50%, -50%);
 }
 
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+}
+
 .fixed-attachment {
     background-attachment: fixed;
 }
