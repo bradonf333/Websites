@@ -15,7 +15,7 @@ $(function () {
         offset: 160
     });
 
-    $('nav a').bind('click', function () {
+    $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 100
         }, 1500, 'easeInOutExpo');
