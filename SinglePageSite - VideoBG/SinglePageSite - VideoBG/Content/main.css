@@ -1,0 +1,393 @@
+﻿body {
+    font-family: 'Open Sans', sans-serif;
+    background: #d4d4d4;
+    padding-top: 60px;
+}
+
+.navbar {
+    margin-bottom: 0px;
+    padding: 30px 15px;
+    -webkit-transition: all .5s;
+    transition: all 0.5s;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+    border-color: #101010;
+    padding-top: 15px;
+}
+
+    .navbar img {
+        height: 65px;
+        display: block;
+    }
+
+    .navbar .nav-credit {
+        font-size: 8pt;
+        color: rgba(255, 255, 255, 0.72);
+    }
+
+@media (max-width: 425px) {
+    .navbar .nav-credit {
+        font-size: 2pt;
+        display: block;
+        text-align: left;
+
+    }
+}
+
+@media (max-width: 400px) {
+    .navbar-header {
+        position: relative;
+    }
+
+    .navbar img {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        width: 40%;
+        height: auto;
+    }
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #e5e5e5;
+    text-align: center;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: .9;
+}
+
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
+
+.content-filler {
+    min-height: 350px;
+}
+
+.fixed-attachment {
+    background-attachment: fixed;
+}
+
+.text-banner {
+    text-align: center;
+    margin: 40px 20px;
+}
+
+    .text-banner h1 {
+        font-size: 44px;
+    }
+
+    .text-banner p {
+        font-size: 18px;
+    }
+
+.activity-section {
+    margin: 50px;
+}
+
+.activity-element {
+    text-align: center;
+}
+
+    .activity-element img {
+        width: 150px;
+        height: 150px;
+    }
+
+.contact-us {
+    margin: 50px;
+    text-align: center;
+}
+
+.cbp-af-header-shrink {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    opacity: .9;
+}
+
+.sideLists h1 {
+    font-size: 25pt;
+}
+
+@media (min-width: 768px) and (max-width: 768px) {
+    .sideLists h1 {
+        font-size: 3.3vw;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 874px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 2vw;
+    }
+}
+
+@media (min-width: 320px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 10pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 414px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 12pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+@media (min-width: 1024px) {
+    .navbar-inverse .navbar-brand {
+        font-size: 20pt;
+        font-style: italic;
+        font-weight: 700;
+    }
+}
+
+
+/* TODO
+    More media queries to resize the font awesome icons for different sizes
+
+*/
+
+
+footer {
+    background-color: #333;
+    color: #ddd;
+    padding: 20px;
+    text-align: center;
+}
+
+.sideLists {
+    background-color: rgba( 161, 6, 6, 0.76);
+    color: #000000;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+    .sideLists ul {
+        list-style: none;
+        display: inline;
+        font-size: 10px !important;
+    }
+
+    .sideLists i {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .sideLists img {
+        height: 100px;
+        padding-bottom: 10px;
+    }
+
+.midLists {
+    background-color: rgba( 9, 123, 133, 0.76);
+    color: #000000;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+    .midLists ul {
+        list-style: none;
+        display: inline;
+        font-size: 45px !important;
+    }
+
+    .midLists i {
+        display: inline-block;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .midLists img {
+        height: 300px;
+        padding-bottom: 35px;
+    }
+
+
+.blueColumn {
+    background-color: rgba( 9, 123, 133, 0.76);
+    color: #000000;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.sized {
+    height: 200px;
+    padding-bottom: 10px;
+}
+
+
+
+/* The following code is used to create same-sized columns 
+   in a multi-column layout.
+   Code from:  
+   http://www.minimit.com/articles/solutions-tutorials/bootstrap-3-responsive-columns-of-same-height
+*/ /* content styles */
+
+.inside {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #ededed;
+    background: -webkit-gradient(linear, left top, left bottom,color-stop(0%, #f4f4f4), color-stop(100%, #ededed));
+    background: -moz-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+    background: -ms-linear-gradient(top, #f4f4f4 0%, #ededed 100%);
+}
+
+.inside-full-height {
+    /*
+  // if you want to give content full height give him height: 100%;
+  // with content full height you can't apply margins to the content
+  // content full height does not work in ie http://stackoverflow.com/questions/27384433/ie-display-table-cell-child-ignores-height-100
+  */
+    height: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/* columns of same height styles */
+
+.row-height {
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.col-height {
+    display: table-cell;
+    float: none;
+    height: 100%;
+}
+
+.col-top {
+    vertical-align: top;
+}
+
+.col-middle {
+    vertical-align: middle;
+}
+
+.col-bottom {
+    vertical-align: bottom;
+}
+
+@media (min-width: 480px) {
+    .row-xs-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-xs-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-xs-top {
+        vertical-align: top;
+    }
+
+    .col-xs-middle {
+        vertical-align: middle;
+    }
+
+    .col-xs-bottom {
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width: 768px) {
+    .row-sm-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-sm-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-sm-top {
+        vertical-align: top;
+    }
+
+    .col-sm-middle {
+        vertical-align: middle;
+    }
+
+    .col-sm-bottom {
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width: 992px) {
+    .row-md-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-md-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-md-top {
+        vertical-align: top;
+    }
+
+    .col-md-middle {
+        vertical-align: middle;
+    }
+
+    .col-md-bottom {
+        vertical-align: bottom;
+    }
+}
+
+@media (min-width: 1200px) {
+    .row-lg-height {
+        display: table;
+        table-layout: fixed;
+        height: 100%;
+        width: 100%;
+    }
+
+    .col-lg-height {
+        display: table-cell;
+        float: none;
+        height: 100%;
+    }
+
+    .col-lg-top {
+        vertical-align: top;
+    }
+
+    .col-lg-middle {
+        vertical-align: middle;
+    }
+
+    .col-lg-bottom {
+        vertical-align: bottom;
+    }
+}
