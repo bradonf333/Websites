@@ -66,6 +66,16 @@
     margin-top: 60px;
 }
 
+.title-img {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
 .fill-screen {
     background-size: cover;
     background-position: center;
