@@ -72,7 +72,6 @@
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\main.css" />
-    <Content Include="Content\video.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="imgs\cloud.svg" />
@@ -113,7 +112,6 @@
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\scrolling.js" />
-    <Content Include="Scripts\VideoBG.js" />
     <Content Include="vids\Coffee-Jet.webm" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
