@@ -87,6 +87,7 @@
     <Content Include="imgs\CoffeeIcon2.png" />
     <Content Include="imgs\CoffeeIcon3.png" />
     <Content Include="imgs\CoffeeLogoTransP3.png" />
+    <Content Include="imgs\CoffeeMacBookDark.jpeg" />
     <Content Include="imgs\contactcard.svg" />
     <Content Include="imgs\desk.svg" />
     <Content Include="imgs\espressoMachine.svg" />
