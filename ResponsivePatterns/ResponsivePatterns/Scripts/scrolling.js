@@ -25,6 +25,7 @@ $(function () {
         event.preventDefault();
     });
 
-    $('.parallax-window').parallax({ imageSrc: '../images/site-logo-white1.png' });
+    // Call stellar for parallax scrolling
+    $(window).stellar();
 
 });
