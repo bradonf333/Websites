@@ -25,4 +25,7 @@ $(function () {
         event.preventDefault();
     });
 
+    // Call stellar for parallax scrolling
+    $(window).stellar();
+
 });
