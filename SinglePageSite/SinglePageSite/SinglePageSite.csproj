@@ -79,6 +79,7 @@
     <Content Include="imgs\Coffee-Jet.jpg" />
     <Content Include="imgs\coffee2Background.jpeg" />
     <Content Include="imgs\coffee3Background.jpeg" />
+    <Content Include="imgs\coffee3BackgroundDark.jpeg" />
     <Content Include="imgs\coffeeBackground.jpg" />
     <Content Include="imgs\coffeeBeansWhite.svg" />
     <Content Include="imgs\coffeeCup.svg" />

@@ -66,6 +66,11 @@
     margin-top: 60px;
 }
 
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
 .title-img {
     position: absolute;
     padding: 20px;
