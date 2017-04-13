@@ -16,6 +16,8 @@ $(function () {
         offset: 160
     });
     */
+
+    // Smooth scrolling
     $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 100
