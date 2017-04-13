@@ -61,6 +61,11 @@
     opacity: .9;
 }
 
+.img-responsive {
+    margin: 40px auto;
+    margin-top: 60px;
+}
+
 .fill-screen {
     background-size: cover;
     background-position: center;
