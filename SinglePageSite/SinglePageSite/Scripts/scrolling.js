@@ -4,17 +4,11 @@
     });
 
     // add Bootstrap's scrollspy
-
     $('body').scrollspy({
         target: '.navbar',
         offset: 900
     });
 
-    /*
-    $('#content').scrollspy({
-        offset: 450
-    });
-    */
 
     $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({

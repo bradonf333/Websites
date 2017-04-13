@@ -5,16 +5,17 @@ $(function () {
     });
 
     // add Bootstrap's scrollspy
-    /*
-    $('body').scrollspy({
-        target: '.navbar'
-    });
-    */
 
-    $('#content').scrollspy({
+    $('body').scrollspy({
+        target: '.navbar',
         offset: 160
     });
 
+    /*
+    $('#content').scrollspy({
+        offset: 160
+    });
+    */
     $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 100
