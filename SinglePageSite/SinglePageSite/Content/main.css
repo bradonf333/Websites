@@ -81,6 +81,18 @@
     -webkit-transform: translate(-50%, -50%);
 }
 
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
+
+    .down-button i {
+        color: white;
+    }
+
 .fill-screen {
     background-size: cover;
     background-position: center;
