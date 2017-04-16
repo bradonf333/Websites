@@ -6,12 +6,12 @@ Some of them are created following tutorials on PluralSight, some are my own cre
 
 Turned this into a couple different Websites:
 1. **ResponsivePatterns** - Created following the steps from PluralSight. Uses all the resources from the tutorial.
-2. **MyOwnResponsiveWebsite** - Shows how to use Bootstrap columns for different device sizes.
-    * Modified version of the above only using my own ideas. Concepts and format came from above. Resources came from the web.
-3. **SinglePageSite** - Shows how to create a single page site.
-    * Forked from #2. Wanted to keep #2 and #3 their own seperate sites. Same concepts and ideas as number one, but with my own style.
+2. **SinglePageSite** - Shows how to create a single page website.
+    * Forked from #1. Wanted to keep #1 its own seperate site. This is based off the same concepts and ideas as #1, but with my own style.
+3. **SinglePageSite - VideoBG** - Shows how to use a video background in a single page site
+    * Modified version of the above.
 
 
 ## Demos
-**SinglePageSite**
+**SinglePageSite - VideoBG**
 ![alt text](https://github.com/bradonf333/ResponsivePatterns/blob/master/SinglePageSite/DemoGifs/SinglePageSiteDemo.gif "SinglePageSite Demo")

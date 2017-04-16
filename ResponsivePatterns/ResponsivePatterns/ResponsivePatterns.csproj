@@ -107,6 +107,9 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
     <Content Include="Scripts\jquery.easing.1.3.js" />
+    <Content Include="Scripts\jquery.stellar.js" />
+    <Content Include="Scripts\jquery.stellar.min.js" />
+    <Content Include="Scripts\parallax.min.js" />
     <Content Include="Scripts\scrolling.js" />
     <Content Include="Scripts\videoBG.js" />
     <Content Include="vids\Trees-Top.mp4" />

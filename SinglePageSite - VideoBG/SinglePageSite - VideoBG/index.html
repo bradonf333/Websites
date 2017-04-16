@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>FullScreenImg</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cantarell:400,700i" rel="stylesheet">
+    <link href="/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="Content/video.css" rel="stylesheet" />
+    <link href="Content/main.css" rel="stylesheet" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
+
+            <div class="container-fluid">
+                <!-- Smart phone size -->
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed"
+                            data-toggle="collapse"
+                            data-target="#bs-example-navbar-collapse-1"
+                            aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a href="#top" class="img-credit">
+                        <img src="imgs/CoffeeLogoTransP3.png" />
+                        <a class="nav-credit" href='http://www.freepik.com/free-vector/retro-coffee-badges_790617.htm'>Designed by Freepik</a>
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">Sights</a></li>
+                        <li><a href="#">Sports</a></li>
+                        <li><a href="#">Activities</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+    </header>
+
+    <!-- Fixed Video :
+        Video found from here: https://coverr.co/
+    -->
+    <div class="container-fluid">
+
+        <div class="row">
+            <div class="homepage-hero-module">
+                <div class="video-container">
+                    <div class="filter"></div>
+                    <video autoplay loop class="fillWidth">
+                        <source src="/vids/Coffee-Jet.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                        <source src="/vids/Coffee-Jet.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+                    </video>
+                    <div class="poster hidden">
+                        <img src="/imgs/Coffee-Jet.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Filler 1 - Drink some coffee -->
+        <section class="row text-banner">
+            <h1>DRINK SOME COFFEE!</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </section>
+
+        <!-- Fixed Image:
+             Image found here: http://americanpreppersnetwork.com/wp-content/uploads/2016/07/coffee-wallpaper-1306-1433-hd-wallpapers.jpg
+        -->
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(imgs/coffeeBackground.jpg);"></div>
+        </div>
+
+
+        <!-- Filler 2 - Random Coffee Icon Section -->
+        <section class="row activity-section">
+            <div class="activity-element col-md-4">
+                <img src="imgs/CoffeeIcon1.png" />
+                <h2>French Press</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <a href="http://www.freepik.com/free-vector/coffee-shop-round-icons_745327.htm">Designed by Freepik</a>
+                </p>
+            </div>
+            <div class="activity-element col-md-4">
+                <img src="imgs/CoffeeIcon2.png" />
+                <h2>Coffee Cup</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <a href="http://www.freepik.com/free-vector/coffee-shop-round-icons_745327.htm">Designed by Freepik</a>
+                </p>
+            </div>
+            <div class="activity-element col-md-4">
+                <img src="imgs/CoffeeIcon3.png" />
+                <h2>Coffee Bean</h2>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    <a href="http://www.freepik.com/free-vector/coffee-shop-round-icons_745327.htm">Designed by Freepik</a>
+                </p>
+            </div>
+        </section>
+
+        <!-- Fixed Image 1
+             Image found here: https://static.pexels.com/photos/134577/pexels-photo-134577.jpeg
+        -->
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(imgs/coffee2Background.jpeg);"></div>
+        </div>
+
+        <!-- Filler 3 - Contact -->
+        <section class="row contact-us">
+            <h1>CONTACT US</h1>
+            <h3>At a coffee shop somewhere in Utah</h3>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+            <p>Lorem ipsum dolor sit amet</p>
+        </section>
+    </div>
+
+    <footer class="container-fluid">
+        <h1>FOOTER</h1>
+    </footer>
+
+
+    <script src="/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="/Scripts/bootstrap.min.js"></script>
+    <script src="Scripts/classie.js"></script>
+    <script src="Scripts/cbpAnimatedHeader.js"></script>
+    <script src="Scripts/VideoBG.js"></script>
+    <script src="Scripts/scrolling.js"></script>
+</body>
+</html>

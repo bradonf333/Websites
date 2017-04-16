@@ -61,6 +61,38 @@
     opacity: .9;
 }
 
+.img-responsive {
+    margin: 40px auto;
+    margin-top: 60px;
+}
+
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+.title-img {
+    position: absolute;
+    padding: 20px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+}
+
+.down-button {
+    position: absolute;
+    bottom: 40px;
+    width: 100%;
+    text-align: center;
+    font-weight: 100;
+}
+
+    .down-button i {
+        color: white;
+    }
+
 .fill-screen {
     background-size: cover;
     background-position: center;
