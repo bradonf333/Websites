@@ -106,6 +106,15 @@
     background-attachment: fixed;
 }
 
+#carousel {
+    margin: 40px 0px;
+}
+
+    #carousel img {
+        width: 100%;
+        height: auto;
+    }
+
 .parallax {
     /* Full height */
     height: 100%;
