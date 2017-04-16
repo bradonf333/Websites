@@ -24,8 +24,4 @@ $(function () {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
-
-    // Call stellar for parallax scrolling
-    $(window).stellar();
-
 });
