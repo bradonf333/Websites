@@ -66,9 +66,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="03\index - Copy.html" />
+    <Content Include="Content\animate.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
-    <Content Include="Content\video.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\backpack.png" />
     <Content Include="images\elk.jpg" />
