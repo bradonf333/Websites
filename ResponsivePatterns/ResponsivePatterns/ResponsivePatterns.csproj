@@ -109,6 +109,7 @@
     <Content Include="Scripts\jquery.easing.1.3.js" />
     <Content Include="Scripts\scrolling.js" />
     <Content Include="Scripts\videoBG.js" />
+    <Content Include="Scripts\wow.min.js" />
     <Content Include="vids\Trees-Top.mp4" />
     <Content Include="vids\Trees-Top.webm" />
     <Content Include="fonts\FontAwesome.otf" />
