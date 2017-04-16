@@ -117,6 +117,15 @@
         height: 150px;
     }
 
+#carousel {
+    margin: 40px 0px;
+}
+
+#carousel img {
+    width: 100%;
+    height: auto;
+}
+
 .contact-us {
     margin: 50px;
     text-align: center;
