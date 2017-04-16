@@ -84,14 +84,12 @@
     <Content Include="imgs\coffee3Background.jpeg" />
     <Content Include="imgs\coffee3BackgroundDark.jpeg" />
     <Content Include="imgs\coffeeBackground.jpg" />
-    <Content Include="imgs\coffeeBeansWhite.svg" />
     <Content Include="imgs\CoffeeIcon1.png" />
     <Content Include="imgs\CoffeeIcon2.png" />
     <Content Include="imgs\CoffeeIcon3.png" />
     <Content Include="imgs\CoffeeLogoTransP3.png" />
     <Content Include="imgs\CoffeeLogoTransP3_sm.png" />
     <Content Include="imgs\CoffeeMacBookDark.jpeg" />
-    <Content Include="imgs\iconmonstr-phone-1-240.png" />
     <Content Include="index.html" />
     <Content Include="packages.config" />
     <Content Include="Content\bootstrap-theme.css.map" />
