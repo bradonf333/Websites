@@ -24,4 +24,7 @@ $(function () {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+
+    // Initialize WOW for element animation
+    new WOW().init();
 });
