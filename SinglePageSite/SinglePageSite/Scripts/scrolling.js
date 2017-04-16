@@ -17,4 +17,7 @@
         event.preventDefault();
     });
 
+    // Initialize WOW
+    new WOW().init();
+
 });
