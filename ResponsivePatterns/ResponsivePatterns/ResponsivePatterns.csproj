@@ -71,6 +71,7 @@
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\nanogallery.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
+    <Content Include="fonts\nano_icon_font3.svg" />
     <Content Include="images\backpack.png" />
     <Content Include="images\elk.jpg" />
     <Content Include="images\icon-biathlon.png" />
@@ -119,6 +120,9 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="fonts\nano_icon_font3.eot" />
+    <Content Include="fonts\nano_icon_font3.ttf" />
+    <Content Include="fonts\nano_icon_font3.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
