@@ -69,6 +69,7 @@
     <Content Include="Content\animate.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\nanogallery.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="images\backpack.png" />
     <Content Include="images\elk.jpg" />
