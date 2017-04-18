@@ -78,6 +78,11 @@
     <Content Include="imgs\photos\coffeeSlide1.jpeg" />
     <Content Include="imgs\photos\coffeeSlide2.jpeg" />
     <Content Include="imgs\photos\coffeeSlide3.jpeg" />
+    <Content Include="imgs\photos\coffeeSlide4.jpeg" />
+    <Content Include="imgs\photos\coffeeSlide5.jpeg" />
+    <Content Include="imgs\photos\coffeeSlide6.jpeg" />
+    <Content Include="imgs\photos\coffeeSlide7.jpeg" />
+    <Content Include="imgs\photos\coffeeSlide8.jpeg" />
     <Content Include="Scripts\jquery.nanogallery.min.js" />
     <Content Include="Scripts\wow.min.js" />
     <Content Include="fonts\fontawesome-webfont.svg" />
