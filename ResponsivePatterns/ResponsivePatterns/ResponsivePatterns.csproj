@@ -101,7 +101,6 @@
     <Content Include="images\site-logo-white1.png" />
     <Content Include="images\snowboarder.jpg" />
     <Content Include="images\Trees-Top.jpg" />
-    <Content Include="Old\index.html" />
     <Content Include="packages.config" />
     <Content Include="Scripts\cbpAnimatedHeader.js" />
     <Content Include="Scripts\classie.js" />
