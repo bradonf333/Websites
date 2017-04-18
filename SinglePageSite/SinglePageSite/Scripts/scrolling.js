@@ -9,7 +9,7 @@
         offset: 900
     });
 
-
+    // Smooth scrolling
     $('nav a, .down-button a').bind('click', function () {
         $('html, body').stop().animate({
             scrollTop: $($(this).attr('href')).offset().top - 140
@@ -17,6 +17,7 @@
         event.preventDefault();
     });
 
+    // Initialize WOW for element animation
     new WOW().init();
 
 });
