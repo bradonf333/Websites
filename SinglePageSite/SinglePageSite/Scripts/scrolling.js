@@ -20,4 +20,10 @@
     // Initialize WOW for element animation
     new WOW().init();
 
+    // Initialize Nanogallery
+    $(document).ready(function () {
+        $("#nanoGallery3").nanoGallery({
+        });
+    });
+
 });
